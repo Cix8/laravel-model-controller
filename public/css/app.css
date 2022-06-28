@@ -38,3 +38,7 @@ main .movies_list li h4 {
   display: inline-block;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+

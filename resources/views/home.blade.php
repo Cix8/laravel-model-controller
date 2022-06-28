@@ -19,7 +19,7 @@
                 <li>
                     <div class="title">
                         <span>Title:</span>
-                        <h3>{{ $movie->title }}</h3>
+                        <h3 class="uppercase">{{ $movie->title }}</h3>
                     </div>
                     <div class="original_title">
                         <span>Original title:</span>
@@ -27,7 +27,7 @@
                     </div>
                     <div class="nationality">
                         <span>Nationality:</span>
-                        <span>{{ $movie->nationality }}</span>
+                        <span class="uppercase">{{ $movie->nationality }}</span>
                     </div>
                     <div class="date">
                         <span>Date:</span>
