@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+main {
+  background-color: black;
+  color: white;
+}
+
+main .page_title {
+  padding: 2rem 2rem 1rem;
+}
+
+main .movies_list {
+  padding: 0 3rem;
+}
+
+main .movies_list li {
+  padding: 1rem 0;
+}
+
+main .movies_list li div {
+  padding: 0.3rem 0;
+}
+
+main .movies_list li h3,
+main .movies_list li h4 {
+  display: inline-block;
+}
+
