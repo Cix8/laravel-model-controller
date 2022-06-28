@@ -15,6 +15,7 @@ ul {
 main {
   background-color: black;
   color: white;
+  min-height: 100vh;
 }
 
 main .page_title {
@@ -22,11 +23,16 @@ main .page_title {
 }
 
 main .movies_list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   padding: 0 3rem;
 }
 
 main .movies_list li {
+  width: 25%;
   padding: 1rem 0;
+  text-align: center;
 }
 
 main .movies_list li div {

@@ -12,13 +12,12 @@
     
     <main>
         <div class="page_title">
-            <h1>Movies:</h1>
+            <h1>Movies</h1>
         </div>
         <ul class="movies_list">
             @foreach ($movies as $movie)
                 <li>
                     <div class="title">
-                        <span>Title:</span>
                         <h3 class="uppercase">{{ $movie->title }}</h3>
                     </div>
                     <div class="original_title">
